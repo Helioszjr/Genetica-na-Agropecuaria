@@ -1,7 +1,8 @@
-# Genética na Agropecuária
-"Autores: Magno A. P. Ramalho et al."
+# Livro: Genética na Agropecuária
+RAMALHO, Marco Antonio Patto; SANTOS, João Bosco dos; PINTO, César Augusto Brasil Pereira; SOUZA, Elaine Aparecida de; GONÇALVES, Flávia Maria Avelar; SOUZA, João Cândido de. Genética na agropecuária. 6. ed.Lavras, MG: UFLA, 2021.508 p.ISBN 978-65-8656-114-2.
 
-Aqui você vai encontrar conteúdos do livro Genética na Agropecuária
+Aqui você encontrará conteúdos baseados no livro Genética na Agropecuária.
+
 
 # Sumário
 
