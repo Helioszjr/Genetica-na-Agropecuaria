@@ -28,7 +28,7 @@ Este repositório conta com diversas rotinas do software R voltadas para o auxil
 ---
 ## Contribua
 
-- Em caso de erros entre em contato pelos e-mails: helioszjr@gmail.com
+- Em caso de erros entre em contato pelo e-mail: helioszjr@gmail.com
 - Sugestões de novos procedimentos são sempre bem-vindas.
 
 
