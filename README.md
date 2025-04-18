@@ -7,7 +7,6 @@ Repositório dedicado ao ensino na área de Genética na Agropecuária e Princí
 Nosso objetivo é orientar e auxiliar estudantes de graduação e pós-graduação que possuam interesse nos tópicos de Ciência de Dados (Data Science) aplicada ao melhoramento genético de plantas. 
 
 Referências Bibliográficas: RAMALHO, Marco Antonio Patto; SANTOS, João Bosco dos; PINTO, César Augusto Brasil Pereira; SOUZA, Elaine Aparecida de; GONÇALVES, Flávia Maria Avelar; SOUZA, João Cândido de. Genética na agropecuária. 6. ed.Lavras, MG: UFLA, 2021.508 p.ISBN 978-65-8656-114-2.
-Referências Bibliográficas: RAMALHO, M. A. P.; FERREIRA, D. F.; OLIVEIRA, A. C. de. Experimentação em Genética e Melhoramento de Plantas: 3.ed. Lavras: Editora UFLA, 2012.
 
 ---
 ## Descrição
