@@ -8,6 +8,9 @@ Nosso objetivo é orientar e auxiliar estudantes de graduação e pós-graduaç�
 
 Referências Bibliográficas: RAMALHO, Marco Antonio Patto; SANTOS, João Bosco dos; PINTO, César Augusto Brasil Pereira; SOUZA, Elaine Aparecida de; GONÇALVES, Flávia Maria Avelar; SOUZA, João Cândido de. Genética na agropecuária. 6. ed.Lavras, MG: UFLA, 2021.508 p.ISBN 978-65-8656-114-2.
 
+Referências Bibliográficas: HARTL, Daniel L.; CLARK, Andrew G. Princípios de genética de populações. 4. ed. Porto Alegre: Artmed, 2010.
+
+
 ---
 ## Descrição
 
