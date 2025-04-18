@@ -1,13 +1,10 @@
-# Livro: Genética na Agropecuária
-
----
-
 Repositório dedicado ao ensino na área de Genética na Agropecuária e Princípios de Genética de População.
 
+# Livro: Genética na Agropecuária
 Referências Bibliográficas: RAMALHO, Marco Antonio Patto; SANTOS, João Bosco dos; PINTO, César Augusto Brasil Pereira; SOUZA, Elaine Aparecida de; GONÇALVES, Flávia Maria Avelar; SOUZA, João Cândido de. Genética na agropecuária. 6. ed.Lavras, MG: UFLA, 2021.508 p.ISBN 978-65-8656-114-2.
 
+# Livro: Princípios de genética de populações
 Referências Bibliográficas: HARTL, Daniel L.; CLARK, Andrew G. Princípios de genética de populações. 4. ed. Porto Alegre: Artmed, 2010.
-
 
 ---
 ## Descrição
