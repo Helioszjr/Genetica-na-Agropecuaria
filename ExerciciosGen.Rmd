@@ -1,0 +1,254 @@
+---
+title: |
+  ![](img/pgm.png){width=25%}
+
+  PROBLEMAS PROPOSTOS - Livro: Genética na Agropecuária
+author: 
+- Helio de Souza Junior,^[Universidade Estadual de Maringá, helioszjr@gmail.com] PG:55679
+date: 07/04/2025
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    highlight: haddock
+    editor_options: 
+      chunk_output_type: console
+  chunk_output_type: console
+  bibliography: referencias.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, cache.lazy = FALSE, fig.width = 9)
+```
+
+Trabalho de avaliação elaborado durante a disciplina DAG4090 – Genética Quantitativa Aplicada ao Melhoramento de Plantas, ministrado pelo Prof. Dr. Carlos Scapim, como instrumento para fixação de conhecimento e obtenção de nota. 
+
+- Exercícios respondidos por [Helio de Souza Junior](https://github.com/Helioszjr), com [RStudio](https://posit.co/download/rstudio-desktop) usando [rmarkdown](https://rmarkdown.rstudio.com/index.html). Código disponível no [GitHub](https://github.com/Helioszjr).
+
+# CAPÍTULO 2 - Variação e seu significado Biológico
+## `Exercício 1`
+
+**Por que é importante para a genética a existência de variação?**
+
+<span style="color:red">`Resposta:`</span>
+
+A variação genética é essencial para selecionar características desejáveis em um rebanho ou plantação. Sem variação entre os indivíduos, não seria possível realizar o melhoramento genético.
+
+## `Exercício 2`
+**Explique por que a variação genética é herdável e a variação ambiental não é herdável.**
+
+<span style="color:red">`Resposta:`</span>
+
+A variação genética decorre de diferenças no material genético (DNA), sendo transmitida dos pais para os filhos. Já a variação ambiental ocorre devido a fatores externos ao organismo, como nutrição e clima, e não é transmitida geneticamente.
+
+<span style="color:blue">**Exemplo:**</span>  
+Se um bezerro nasce com genes que favorecem o crescimento rápido, ele pode transmitir isso aos seus filhos (variação genética). Mas se ele cresce mais rápido por receber ração de melhor qualidade, esse desempenho não será passado aos filhos (variação ambiental).
+
+## `Exercício 3`
+**Uma vaca, durante a sua vida, produziu 5 bezerras e 3 bezerros, e o peso dos animais no momento do nascimento foi diferente. Qual a natureza dessa variação? Qual seria sua resposta, se fosse considerada a variação no peso ao nascer dos 8 leitões de uma leitegada de uma porca?**
+
+<span style="color:red">`Resposta:`</span>
+
+Uma vaca produziu 5 bezerras e 3 bezerros com pesos diferentes ao nascer. Essa variação pode ter origem genética ou ambiental, como diferenças na alimentação da mãe durante a gestação ou número de filhotes.
+
+<span style="color:blue">**Exemplo:**</span>    
+Se dois bezerros nasceram com pesos muito diferentes, pode ser que um herdou genes melhores (genética), ou que a vaca foi melhor alimentada em uma das gestações (ambiental).  
+Para os 8 leitões de uma porca, a variação é mais provavelmente **ambiental**, já que todos se desenvolveram juntos no útero e podem ter sofrido diferenças de nutrição e espaço intrauterino.
+
+
+## `Exercício 4`
+**Qual a principal atividade do Centro Nacional de Pesquisa de Recursos Genéticos e Biotecnologia (CENARGEN)? O que faz o profissional que trabalha nesse centro?**
+
+<span style="color:red">`Resposta:`</span>
+
+O CENARGEN [Centro Nacional de Pesquisa de Recursos Genéticos e Biotecnologia](https://www.embrapa.br/recursos-geneticos-e-biotecnologia) atua na conservação e caracterização de recursos genéticos (plantas, animais e microrganismos) importantes para a agropecuária. Um pesquisador do CENARGEN pode armazenar sementes de diferentes variedades de milho em bancos genéticos e estudar como usar genes de variedades silvestres para torná-las mais resistentes à seca.
+
+## `Exercício 5`
+**Explique qual é a importância de conservar o germoplasma das espécies cultivadas e de seus parentes próximos.**
+
+<span style="color:red">`Resposta:`</span>
+
+Conservar o germoplasma é essencial para preservar a diversidade genética, permitindo o desenvolvimento de novas variedades de plantas e animais mais resistentes, produtivos e adaptados a diferentes ambientes.
+
+<span style="color:blue">**Exemplo:**</span>    
+Uma variedade antiga de arroz pode conter genes de resistência a uma praga moderna. Se esse germoplasma for preservado, ele poderá ser usado para cruzamentos com variedades atuais, aumentando a resistência das plantações sem perder produtividade.
+
+
+# CAPÍTULO 3 - Genética Molecular
+## `Exercício 1`
+
+**A composição de bases de vários ácidos nucleicos isolados de algumas espécies é fornecida a seguir:**
+
+**Composição de bases nitrogenadas por espécie:**
+
+| Espécie | A (%) | C (%) | G (%) | T (%) | U (%) |
+|---------|-------|-------|-------|-------|-------|
+| 1       | 20    | 30    | 30    | 20    | -     |
+| 2       | 40    | 10    | 10    | 40    | -     |
+| 3       | 30    | 30    | 20    | -     | 20    |
+| 4       | 40    | 10    | 40    | -     | 10    |
+| 5       | 30    | 30    | 20    | 20    | -     |
+
+<span style="color:red">`Resposta:`</span>
+
+**Caracterização do tipo de ácido nucleico:**
+
+| Espécie | Composição                              | Interpretação                                  |
+|---------|------------------------------------------|------------------------------------------------|
+| 1       | A=20%, T=20%, C=30%, G=30%, U=-          | DNA de hélice dupla (A = T, C = G)                  |
+| 2       | A=40%, T=40%, C=10%, G=10%, U=-          | DNA de hélice dupla (A = T, C = G)                  |
+| 3       | A=30%, C=30%, G=20%, U=20%, T=-          | RNA fita simples (possui U, sem T)            |
+| 4       | A=40%, C=10%, G=40%, U=10%, T=-          | RNA fita simples (possui U, sem T)            |
+| 5       | A=30%, T=20%, C=30%, G=20%, U=-          | DNA de hélice simples (A ≠ T, G ≠ C)                |
+
+
+## `Exercício 2`
+**O DNA de uma célula haploide da galinha contém 1,3 × 10⁻¹² g e a adenina corresponde a 28% de suas bases.**  
+**a) Qual é a proporção de citosina esperada nesse DNA?**  
+**b) Qual o número esperado de nucleotídeos em uma célula somática?**  
+**c) Qual seria o comprimento total do DNA de uma célula haploide, se todos os seus cromossomos fossem unidos?**  
+**d) Considerando que o núcleo de uma célula tem 3 mm de diâmetro, qual a implicação biológica dessa dimensão em relação ao comprimento do DNA?**
+
+<span style="color:red">`Resposta:`</span>
+
+**a)** Proporção de citosina:  
+A = 28% → T = 28%  
+C + G = 44% → C = G = 22%
+
+**b)** Massa de DNA: 1,3 × 10⁻¹² g  
+Massa molar por nucleotídeo = 330 Da  
+→ n mols = \( \frac{1,3 \times 10^{-12}}{330 \times 1,67 \times 10^{-24}} \approx 2,36 \times 10^9 \) nucleotídeos  
+**Somática**: 2n → \( 2 \times 2,36 \times 10^9 = 4,72 \times 10^9 \)
+
+**c)** Comprimento do DNA:  
+Cada nucleotídeo = 0,34 nm  
+→ \( 2,36 \times 10^9 \times 0,34 	ext{nm} = 0,8 	ext{m} \)
+
+**d)** O DNA compactado precisa caber num núcleo de ~3 μm de diâmetro  
+→ Reforça a importância da compactação (cromatina)
+
+## `Exercício 3`
+**Considerando ainda o DNA de uma célula haploide da galinha, quantos tipos de moléculas de DNA são possíveis? Qual a implicação biológica desse resultado?**
+
+<span style="color:red">`Resposta:`</span>
+
+DNA haploide: 1 molécula por cromossomo → várias moléculas  
+**Implicação**: diversidade e distribuição da informação genética
+
+
+## `Exercício 4`
+**O gene da ovalbumina da galinha possui 8 éxons e 7 íntrons. A primeira sequência na posição 5' da cadeia senso é um éxon.**  
+**a) Esquematize a estrutura do pré-mRNA transcrito desse gene.**  
+**b) Sabendo-se que a cadeia polipeptídica codificada pelo gene da ovalbumina possua 200 aminoácidos, e o gene 2.016 nucleotídeos, quantas bases constituem os íntrons?**
+
+<span style="color:red">`Resposta:`</span>
+
+**a)** Estrutura do pré-mRNA:  
+Exons: 8 | Íntrons: 7  
+→ mRNA = exons unidos na ordem 5’ → 3’
+
+**b)** 1 aminoácido = 3 nucleotídeos  
+200 aa × 3 = **600 nucleotídeos**  
+Gene = 2.016 nucleotídeos  
+→ Íntrons = 2.016 – 600 = **1.416 nucleotídeos**
+
+## `Exercício 5`
+**Uma cadeia da molécula de DNA contém a seguinte proporção de bases nitrogenadas: 20% A, 30% C, 40% G e 10% T.**  
+**Quais são as proporções dessas mesmas bases esperadas na hélice dupla desse DNA?**
+
+<span style="color:red">`Resposta:`</span>
+
+Fita simples:  
+A = 20%, C = 30%, G = 40%, T = 10%
+
+Fita complementar:  
+T = 20%, G = 30%, C = 40%, A = 10%
+
+**Dupla hélice (média):**  
+**A = 15%, T = 15%, C = 35%, G = 35%**
+
+## `Exercício 6`
+**O genoma haploide do bicho-da-seda tem apenas uma cópia do gene da fibroína - proteína da seda. Durante a produção da seda, cada célula produz 10⁹ moléculas dessa proteína, sendo que o gene é transcrito 10⁴ vezes**.  
+**Quantas vezes uma mesma molécula do mRNA é traduzida?**
+
+<span style="color:red">`Resposta:`</span>
+
+Produção de proteínas: \( 10^9 \)  
+mRNAs transcritos: \( 10^4 \)  
+→ Cada mRNA traduzido \( \frac{10^9}{10^4} = 10^5 \) vezes
+
+## `Exercício 7`
+**Considere as 60 proteínas diferentes de uma espécie vegetal, cada uma com tamanho médio de 120 aminoácidos.**  
+**Qual o número de nucleotídeos dos éxons relacionados com a síntese dessas proteínas?**  
+**Admita que o primeiro aminoácido de todas as proteínas não seja a metionina.**
+
+<span style="color:red">`Resposta:`</span>
+
+60 proteínas × 120 aa = 7.200 aa 
+→ 7.260 × 3 = **21.780 pares de nucleotídeos**
+
+## `Exercício 8`
+**O grão do milho pode ser liso ou enrugado. O liso é decorrente de um alto conteúdo de amido no endosperma, e o enrugado é decorrente da presença de açúcares solúveis em água.**
+**Qual seria a explicação bioquímica para formar amido ou açúcares solúveis em água?**
+
+<span style="color:red">`Resposta:`</span>
+
+**Milho liso**: enzima funcional → converte açúcares em **amido**  
+**Milho enrugado**: enzima defeituosa → açúcares **se acumulam**  
+→ A diferença bioquímica resulta da presença ou ausência da enzima funcional codificada pelos alelos
+
+## `Exercício 9`
+**Em um dos genes da soja que codifica para a antocianina, existem 1.212 bases nitrogenadas nos seus éxons.**  
+**Considerando que o primeiro aminoácido é a metionina:**  
+**a) Qual o número de aminoácidos dessa proteína?**  
+**b) Qual o número de bases nitrogenadas do mRNA?**  
+**c) Qual o número de tRNAs envolvidos na síntese de uma molécula? Quantos ribossomos são necessários?**
+
+<span style="color:red">`Resposta:`</span>
+
+**a)** Número de aminoácidos:  
+1212 / 3 = **404 aa**
+
+**b)** Número de bases no mRNA:  
+**1.212 bases**
+
+**c)** tRNAs: 404  
+Ribossomos: 1 por cadeia → **1 ribossomo**
+
+## `Exercício 10`
+**No sorgo, um determinado alelo apresenta a seguinte sequência de bases:**  
+
+**Questões:**  
+**a) Qual é a sequência de bases no mRNA?**  
+**b) Qual o número de aminoácidos que farão parte da proteína codificada por esse alelo?**  
+**c) Se forem sintetizadas 10⁶ moléculas de proteína, qual o número total de tRNA e de ribossomos que irão participar?**  
+**d) Qual é a sequência de aminoácidos da proteína?**
+
+<span style="color:red">`Resposta:`</span>
+
+**a)** mRNA:  
+Exons = ATG CAC CGA + AGA ATT + CCA CCA CCA CCA CAA TAG  
+→ Transcrito (T → U):  
+**5’ AUG CAC CGA AGA AUU CCA CCA CCA CCA CAA UAG 3’**
+
+**b)** Número de aminoácidos = 7 (até o códon de parada)
+
+**c)** 10⁶ proteínas × 7 tRNAs = 70⁷ tRNAs  
+→ **7⁶ ribossomos**
+
+**d)** Aminoácidos:  
+Met - His - Arg - Arg - Ile - Pro - Gln
+
+
+**e)** A sequência de aminoácidos na cadeia polipeptídica mutante é:
+
+Met - His - Arg - Arg - Ile - Ala - Thr
+
+# REFERÊNCIAS
+
+GRIFFITHS, Anthony J. F.; DOEBLEY, John; PEICHEL, Catherine; et al. *Introdução à genética*. 12. ed. Rio de Janeiro: Guanabara Koogan, 2022. 768 p. ISBN 978-85-277-3850-7.
+
+RAMALHO, Magno Antônio Patto; SANTOS, João Bosco dos; PINTO, César Augusto Brasil Pereira. *Genética na agropecuária*. 6. ed. Lavras, MG: UFLA, 2021. 508 p. ISBN 978-65-8656-114-2.
+
+SNUSTAD, D. P.; SIMMONS, M. J. *Fundamentos de genética*. 8. ed. Porto Alegre: AMGH, 2020.

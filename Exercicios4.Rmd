@@ -1,0 +1,219 @@
+---
+title: |
+  ![](img/pgm.png){width=25%}
+
+  PROBLEMAS PROPOSTOS - Livro: Genética na Agropecuária
+author: 
+- Helio de Souza Junior,^[Universidade Estadual de Maringá, helioszjr@gmail.com] PG:55679
+date: 14/04/2025
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: simplex
+    highlight: haddock
+    editor_options: 
+      chunk_output_type: console
+  chunk_output_type: console
+  bibliography: referencias.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, cache.lazy = FALSE, fig.width = 9)
+```
+
+Trabalho de avaliação elaborado durante a disciplina DAG4090 – Genética Quantitativa Aplicada ao Melhoramento de Plantas, ministrado pelo Prof. Dr. Carlos Scapim, como instrumento para fixação de conhecimento e obtenção de nota. 
+
+- Exercícios respondidos por [Helio de Souza Junior](https://github.com/Helioszjr), com [RStudio](https://posit.co/download/rstudio-desktop) usando [rmarkdown](https://rmarkdown.rstudio.com/index.html). Código disponível no [GitHub](https://github.com/Helioszjr).
+
+# CAPÍTULO 4 - Organização do material genético e divisão celular
+
+## `Exercício 1`
+**O eucalipto é uma espécie que pode ser multiplicada assexuada e sexuadamente. Qual a diferença entre esses dois processos em termos práticos? Justifique sua resposta.**
+
+<span style="color:red">`Resposta:`</span>
+
+A **multiplicação assexuada** do eucalipto, como por meio de estacas ou clonagem, gera indivíduos geneticamente idênticos à planta-mãe. Esse processo é vantajoso quando se deseja manter características desejáveis, como crescimento rápido, resistência a pragas ou produção de madeira de alta qualidade. É mais rápido e garante uniformidade no plantio.
+
+Já a **multiplicação sexuada**, por sementes, envolve recombinação genética, resultando em variabilidade genética entre os indivíduos. Embora essa diversidade possa trazer vantagens adaptativas, como resistência a diferentes estresses ambientais, o crescimento e a qualidade da madeira podem ser menos previsíveis.
+
+Justificativa:
+Na prática, a **multiplicação assexuada** é preferida em plantações comerciais de eucalipto para garantir uniformidade e alto desempenho produtivo. A **multiplicação sexuada**, por sua vez, é usada em programas de melhoramento genético para gerar novas combinações de características desejáveis..
+
+## `Exercício 2`
+**Por que a meiose é importante para a genética e o melhoramento de plantas e animais?**
+
+<span style="color:red">`Resposta:`</span>
+
+A meiose é importante porque gera variabilidade genética, essencial para a seleção de características desejáveis no melhoramento de plantas e animais. Esse processo permite criar indivíduos com novas combinações de genes, aumentando as chances de obter variedades mais produtivas, resistentes e adaptadas.
+
+## `Exercício 3`
+**Sessenta células de um vegetal com a constituição representada a seguir sofrem meiose:**
+
+**Constituição genética:**
+
+- D/d  
+- M/m  
+- F/f  
+
+A partir dessas células, pergunta-se:
+
+#### a) Qual o número de orientações possíveis na metáfase I?
+
+<span style="color:red">`Resposta:`</span> 4 orientações possíveis.
+
+#### b) Quantas células são esperadas apresentando uma mesma orientação?
+
+<span style="color:red">`Resposta:`</span> Aproximadamente 15 células são esperadas.
+
+#### c) Quantos grãos de pólen são esperados apresentando a constituição MDF?
+Cada alelo dominante (D, M, F) tem 50% de chance de ser passado:
+
+<span style="color:red">`Resposta:`</span> 30 grãos de pólen com constituição MDF.
+
+#### d) Quantos tipos de grãos de pólen diferentes são esperados?
+Cada par de genes gera 2 possibilidades (dominante ou recessivo), logo:
+
+<span style="color:red">`Resposta:`</span> 8 tipos diferentes de grãos de pólen esperados.
+
+
+## `Exercício 4`
+**O alho (_Allium sativum_ L.) é uma espécie que só se reproduz por via assexuada.Que implicação biológica tem esse fato?** 
+
+<span style="color:red">`Resposta:`</span>
+
+Como o alho se reproduz apenas por via assexuada, há baixa variabilidade genética, o que o torna mais vulnerável a doenças e mudanças ambientais. Por outro lado, isso garante uniformidade nas plantas, o que pode ser útil na produção agrícola.
+
+## `Exercício 5`
+**Um citologista, estudando a meiose de uma dada espécie, identificou 2.048 orientações diferentes na metáfase I**.
+
+#### a) Qual o provável número de cromossomos no genoma dessa espécie?
+
+Sabemos que:
+
+\[
+2^n = 2048
+\]
+
+Queremos descobrir o valor de \( n \), ou seja, o número haploide de cromossomos.
+
+Para isso, aplicamos logaritmo na base 2:
+
+\[
+n = \log_2(2048)
+\]
+
+```{r}
+# Cálculo do valor de n
+n <- log2(2048)
+n
+```
+
+```{r}
+# Cálculo do número diploide de cromossomos
+num_cromossomos <- 2 * n
+num_cromossomos
+
+```
+<span style="color:red">`Resposta:`</span> Portanto, o número total de cromossomos é 22 cromossomos.
+
+#### b) Desconsiderando a ocorrência de permuta genética, qual o número esperado de gametas diferentes?
+
+Sem permutação genética (sem crossing-over), o número de combinações possíveis de cromossomos nos gametas é dado por:
+
+```{r}
+# Cálculo do número de gametas diferentes
+gametas_possiveis <- 2^n
+gametas_possiveis
+```
+
+<span style="color:red">`Resposta:`</span> 
+
+- **a)** O número provável de cromossomos no genoma da espécie é:
+
+  \[
+  \boxed{12 \text{ cromossomos}}
+  \]
+
+- **b)** O número esperado de gametas diferentes (sem permuta genética) é:
+
+  \[
+  \boxed{4.096}
+  \]
+
+## `Exercício 6`
+**Em citricultura, é comum enxertar-se borbulha de uma planta-matriz de boa qualidade em um “cavalo” de limão-cravo. Por que a planta obtida continua produzindo frutos só de boa qualidade como os da planta-matriz?**
+
+<span style="color:red">`Resposta:`</span>
+
+A planta continua produzindo frutos de boa qualidade porque o enxerto mantém o material genético da planta-matriz. O porta-enxerto (limão-cravo) fornece apenas sustentação e nutrientes, sem interferir nas características genéticas da parte que produz os frutos.
+
+## `Exercício 7`
+**Um criador de suínos comprou um reprodutor da raça Duroc de excelente qualidade e deseja que ele produza espermatozoides idênticos ao que lhe originou.**  
+
+#### a) Qual a probabilidade de que esse fato ocorra?
+
+<span style="color:red">`Resposta:`</span>
+
+- O número total de cromossomos é 2n = 40, portanto:
+- O número haploide é \( n = 20 \)
+
+Durante a formação dos gametas (meiose), os cromossomos homólogos se separam de maneira independente (sem permuta genética), resultando em:
+
+\[
+\text{Número de combinações possíveis de gametas} = 2^{20}
+\]
+
+Logo, a probabilidade de formar exatamente o mesmo gameta que originou o reprodutor é:
+
+\[
+\text{Probabilidade} = \frac{1}{2^{20}} = \frac{1}{524.288}
+\]
+
+```{r}
+# Cálculo da probabilidade
+n <- 20
+prob_igual <- 1 / 2^n
+prob_igual
+```
+
+#### b) Qual é a probabilidade de um de seus espermatozoides apresentar 10 cromossomos provenientes do gameta que lhe deu origem?
+
+```{r}
+# Cálculo da probabilidade para 10 cromossomos iguais ao gameta original
+prob_10_iguais <- choose(20, 10) / 2^20
+prob_10_iguais
+```
+
+<span style="color:red">`Resposta:`</span>
+
+- **a)** A probabilidade de formar um espermatozoide idêntico ao gameta que deu origem ao reprodutor é:
+
+  \[
+  \boxed{\frac{1}{524.288} \approx 0{,}00020\%}
+  \]
+
+- **b)** A probabilidade de um espermatozoide conter exatamente 10 cromossomos vindos do gameta que lhe deu origem é:
+
+  \[
+  \boxed{17{,}62\%}
+  \]
+
+## `Exercício 8`
+**O burro é um excelente animal de tração, sendo um híbrido interespecífico entre o jumento (*Equus asinus*, 2n = 62) e a égua (*Equus caballus*, 2n = 64). Sugira algumas explicaçõessobo ponto de vista citológico paraasua esterilidade.**
+
+<span style="color:red">`Resposta:`</span>
+
+- Durante a meiose, os cromossomos homólogos precisam formar pares para garantir uma divisão celular adequada e a formação de gametas viáveis.
+- Como o burro tem número ímpar de cromossomos (63), não é possível o pareamento completo dos cromossomos homólogos.
+- Isso impede a formação de gametas funcionais, tornando o burro estéril.
+- Além disso, por ser um híbrido interespecífico, existem diferenças genéticas e estruturais entre os cromossomos das duas espécies parentais, dificultando ainda mais o pareamento durante a meiose.
+
+Portanto, a esterilidade do burro é consequência da incompatibilidade cromossômica e do número ímpar de cromossomos, que impedem a meiose normal e a produção de gametas.
+
+# REFERÊNCIAS
+
+GRIFFITHS, Anthony J. F.; DOEBLEY, John; PEICHEL, Catherine; et al. *Introdução à genética*. 12. ed. Rio de Janeiro: Guanabara Koogan, 2022. 768 p. ISBN 978-85-277-3850-7.
+
+RAMALHO, Marco Antonio Patto; SANTOS, João Bosco dos; PINTO, César Augusto Brasil Pereira; SOUZA, Elaine Aparecida de; GONÇALVES, Flávia Maria Avelar; SOUZA, João Cândido de. *Genética na agropecuária*. 6. ed.Lavras, MG: UFLA, 2021.508 p.ISBN 978-65-8656-114-2.
+
