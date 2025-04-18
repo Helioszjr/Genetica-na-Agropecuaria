@@ -1,143 +1,38 @@
 # Livro: Genética na Agropecuária
-RAMALHO, Marco Antonio Patto; SANTOS, João Bosco dos; PINTO, César Augusto Brasil Pereira; SOUZA, Elaine Aparecida de; GONÇALVES, Flávia Maria Avelar; SOUZA, João Cândido de. Genética na agropecuária. 6. ed.Lavras, MG: UFLA, 2021.508 p.ISBN 978-65-8656-114-2.
-
-Aqui você encontrará conteúdos baseados no livro Genética na Agropecuária.
-
-
-# Sumário
-
-## 1. Importância do Estudo da Genética
-- 1.1 Introdução  
-- 1.2 A Genética e sua Importância
-
-## 2. Variação e Seu Significado Biológico
-- 2.1 Introdução  
-- 2.2 Conservação da Variabilidade Genética  
-- 2.3 Conservação da Variabilidade Genética no Brasil  
-- 2.4 Conservação da Variabilidade Genética no Mundo
-
-## 3. Genética Molecular
-- 3.1 Introdução  
-- 3.2 Natureza Química do Material Genético  
-- 3.3 Composição Química e Estrutura dos Ácidos Nucléicos  
-- 3.4 Funções do Material Genético  
-- 3.5 Manifestação Fenotípica  
-- 3.6 Origem da Variabilidade Genética  
-- 3.7 Genes, Alelos e DNA
-
-## 4. Organização do Material Genético e Divisão Celular
-- 4.1 Introdução  
-- 4.2 Divisão Celular  
-- 4.3 Consequências Genéticas da Mitose  
-- 4.4 Formação dos Gametas  
-- 4.5 Consequências Genéticas da Meiose
-
-## 5. Mendelismo
-- 5.1 Introdução  
-- 5.2 Etapas no Estudo do Controle Genético de um Caráter  
-- 5.3 Conceitos Utilizados pelos Geneticistas  
-- 5.4 Estudo em Animais  
-- 5.5 Lei da Distribuição Independente  
-- 5.6 Generalizações das Proporções Mendelianas  
-- 5.7 Determinação dos Gametas e Descendentes
-
-## 6. Interações Alélicas e Não-Alélicas
-- 6.1 Introdução  
-- 6.2 Interações Alélicas  
-- 6.3 Interações Gênicas (Não-Alélicas)  
-- 6.4 Aumentando a Complexidade
-
-## 7. Biometria
-- 7.1 Introdução  
-- 7.2 Leis de Probabilidade  
-- 7.3 Distribuição de Probabilidade  
-- 7.4 Probabilidade de Combinações Genotípicas  
-- 7.5 Teste de Significância - Teste Qui-quadrado
-
-## 8. Alelismo Múltiplo
-- 8.1 Alelismo e Variabilidade  
-- 8.2 Exemplos em Animais  
-- 8.3 Exemplos em Plantas  
-- 8.4 Teste de Alelismo
-
-## 9. Ligação, Permuta Genética e Pleiotropia
-- 9.1 Introdução  
-- 9.2 Estimativa da Frequência de Recombinação  
-- 9.3 Bases Cromossômicas da Permuta  
-- 9.4 Prova Citogenética  
-- 9.5 Mapa Genético  
-- 9.6 Pleiotropia  
-- 9.7 Correlação Genética e Seleção Indireta
-
-## 10. Efeitos do Ambiente na Expressão Gênica
-- 10.1 Introdução  
-- 10.2 Ambiente e Fenótipo  
-- 10.3 Penetrância e Expressividade  
-- 10.4 Interação Genótipo x Ambiente  
-- 10.5 Estimativas de Contribuição (G, A, GxA)
-
-## 11. Herança e Sexo
-- 11.1 Introdução  
-- 11.2 Determinação Ambiental e Genética do Sexo  
-- 11.3 Genes de Sexo  
-- 11.4 Evolução dos Cromossomos Sexuais  
-- 11.5 Determinação do Sexo em Abelhas e Plantas  
-- 11.6 Hereditariedade Relacionada ao Sexo  
-- 11.7 Ginandromorfos
-
-## 12. Genética Quantitativa
-- 12.1 Introdução  
-- 12.2 Hipótese dos Fatores Múltiplos  
-- 12.3 Interações Alélicas  
-- 12.4 Predição da Média em Cruzamentos  
-- 12.5 Uso da Variância em Caracteres Quantitativos
-
-## 13. Genética de Populações
-- 13.1 Introdução  
-- 13.2 Frequências Alélicas e Genotípicas  
-- 13.3 Equilíbrio Genotípico  
-- 13.4 Teste de Hardy-Weinberg  
-- 13.5 Estimativas com Dominância  
-- 13.6 Fatores que Alteram Frequências
-
-## 14. Aberrações Cromossômicas
-- 14.1 Introdução  
-- 14.2 Numéricas  
-- 14.3 Estruturais
-
-## 15. Teoria Sintética da Evolução
-- 15.1 Introdução  
-- 15.2 Mutação  
-- 15.3 Ampliação da Variabilidade  
-- 15.4 Seleção Natural  
-- 15.5 Especiação  
-- 15.6 Termos Evolutivos
-
-## 16. Efeito Materno e Herança Extracromossômica
-- 16.1 Introdução  
-- 16.2 Efeito Materno  
-- 16.3 Herança Extracromossômica  
-- 16.4 Diferenças entre os dois
-
-## 17. Biotecnologia
-- 17.1 Introdução  
-- 17.2 Técnicas em Plantas  
-- 17.3 Técnicas em Animais Domésticos
-
-## 18. Marcadores Moleculares
-- 18.1 Introdução  
-- 18.2 Marcadores Morfológicos e Moleculares  
-- 18.3 Aplicações dos Marcadores
-
-## 19. Regulação da Expressão Gênica
-- 19.1 Introdução  
-- 19.2 Regulação em Procariotos  
-- 19.3 Regulação em Eucariotos
 
 ---
 
-## Apêndices
+Repositório dedicado ao ensino na área de Genética na Agropecuária e Princípios de Genética de População.
 
-- **Respostas dos Problemas Propostos** – pág. 501  
-- **Glossário** – pág. 525  
-- **Bibliografia Complementar** – pág. 555
+Nosso objetivo é orientar e auxiliar estudantes de graduação e pós-graduação que possuam interesse nos tópicos de Ciência de Dados (Data Science) aplicada ao melhoramento genético de plantas. 
+
+Referências Bibliográficas: RAMALHO, Marco Antonio Patto; SANTOS, João Bosco dos; PINTO, César Augusto Brasil Pereira; SOUZA, Elaine Aparecida de; GONÇALVES, Flávia Maria Avelar; SOUZA, João Cândido de. Genética na agropecuária. 6. ed.Lavras, MG: UFLA, 2021.508 p.ISBN 978-65-8656-114-2.
+Referências Bibliográficas: RAMALHO, M. A. P.; FERREIRA, D. F.; OLIVEIRA, A. C. de. Experimentação em Genética e Melhoramento de Plantas: 3.ed. Lavras: Editora UFLA, 2012.
+
+---
+## Descrição
+
+Este repositório conta com diversas rotinas do software R voltadas para o auxilio de estudantes. Aqui aborda, de forma ampla e integrada, os principais temas da Genética, desde conceitos clássicos como herança mendeliana, divisão celular e variabilidade genética, até tópicos avançados como genética molecular, expressão gênica, evolução e biotecnologia. Com aplicações em áreas como saúde, agricultura e conservação, o conteúdo é ideal para estudantes e profissionais que buscam entender como os genes influenciam os organismos e seu desenvolvimento.
+
+## Responsáveis
+
+- Helio de Souza Junior - Doutorando em Genética e Melhoramento de Plantas da Universidade Estadual de Maringá 
+- contato: helioszjr@gmail.com
+- Lattes: http://lattes.cnpq.br/1667801399498296
+
+---
+## Requisitos de Sistema
+
+- Windows
+- Software R
+- R Markdown
+- LaTeX
+
+---
+## Contribua
+
+- Em caso de erros entre em contato pelos e-mails: helioszjr@gmail.com
+- Sugestões de novos procedimentos são sempre bem-vindas.
+# Sumário
+
+
